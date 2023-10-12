@@ -72,6 +72,15 @@
   justify-content: space-between;
 }
 
+.g-layout {
+  display: grid;
+}
+
+.g-layout--center {
+  place-items: center;
+  place-content: center;
+}
+
 .d-none {
   display: none;
 }
@@ -87,5 +96,9 @@
 @media (width >=768px) {
   .md\:d-flex {
     display: flex;
+  }
+
+  .md\:g-layout--1fr-1fr {
+    grid-template-columns: 1fr 1fr;
   }
 }
