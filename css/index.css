@@ -38,3 +38,21 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.g-5xs {
+  gap: 8px;
+}
+
+@media (width >=768px) {
+  .md\:d-flex {
+    display: flex;
+  }
+}
