@@ -30,6 +30,17 @@
   list-style: none;
 }
 
+.link {
+  color: inherit;
+  text-decoration: initial;
+  font-weight: 700;
+  transition: color 0.25s;
+
+  &:hover {
+    color: #23b5d8;
+  }
+}
+
 .flexbox {
   display: flex;
 }
