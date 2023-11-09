@@ -24,3 +24,30 @@ export const socialMedia = [
     content: '<i class="bi bi-instagram"></i>'
   }
 ];
+
+export const teams = [
+  {
+    id: 1,
+    title: 'H07',
+    slug: 'h07',
+    subtitle: 'Sede Norte',
+    description: 'LENGUAJES PARA DES Y SOP SIST (202320-10184-H07-TE)',
+    image: 'https://www.certus.edu.pe/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/01/sede-norte-min.jpg.webp'
+  },
+  {
+    id: 2,
+    title: 'H10',
+    slug: 'h10',
+    subtitle: 'Sede Norte',
+    description: 'LENGUAJES PARA DES Y SOP SIST (202320-10184-H10-TE)',
+    image: 'https://www.certus.edu.pe/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/01/sede-norte-min.jpg.webp'
+  },
+  {
+    id: 3,
+    title: 'P28',
+    slug: 'p28',
+    subtitle: 'Sede Villa el Slavador',
+    description: 'LENGUAJES PARA DES Y SOP SIST (202320-10184-P28-TE)',
+    image: 'https://www.certus.edu.pe/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/01/sede-villaelsalvador-min.jpg.webp'
+  }
+];
