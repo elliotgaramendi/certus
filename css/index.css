@@ -1,8 +1,9 @@
 @import url('./modules/variables.css');
+@import url('./modules/header.css');
 
 :root {
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: var(--color-scheme);
   accent-color: var(--primary-color);
 }
 
@@ -12,15 +13,6 @@
   font-size: 16px;
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-}
-
-.header {
-  position: fixed;
-  z-index: 25;
-  top: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 4px 2px white;
 }
 
 .nav {
