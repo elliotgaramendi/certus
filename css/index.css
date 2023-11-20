@@ -1,5 +1,6 @@
 @import url('./modules/variables.css');
 @import url('./modules/header.css');
+@import url('./modules/mav.css');
 
 :root {
   scroll-behavior: smooth;
@@ -10,14 +11,9 @@
 .body {
   margin: initial;
   font-family: 'Source Code Pro', monospace;
-  font-size: 16px;
+  font-size: var(--element-size);
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-}
-
-.nav {
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 .hero {
