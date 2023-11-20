@@ -4,5 +4,5 @@
   top: 0;
   width: 100%;
   background-color: var(--light-primary-shadow-color);
-  box-shadow: 0 0 2px 1px var(--primary-shadow-color);
+  box-shadow: 0 0 calc(var(--element-size) * 0.125) calc(var(--element-size) * 0.0625) var(--primary-shadow-color);
 }

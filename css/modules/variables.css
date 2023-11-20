@@ -10,9 +10,12 @@
   --dark-primary-text-color: #f1f5f8;
   --secondary-text-color: #b1b5b8;
   /* --secondary-text-color: #818588; */
+  --primary-font-family: 'Source Code Pro', monospace;
   --element-size: 0.875rem;
+  --element-spacing: 1.875rem;
 
   @media (width >=768px) {
-    --element-size: 1rem:
+    --element-size: 1rem;
+    --element-spacing: 2rem;
   }
 }
