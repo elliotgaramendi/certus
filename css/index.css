@@ -80,6 +80,10 @@
   }
 }
 
+.img--card {
+  width: 100%;
+}
+
 .button {
   all: unset;
   padding: 0.25em 1em;
@@ -120,9 +124,5 @@
 @media (width >=768px) {
   .md\:d-flex {
     display: flex;
-  }
-
-  .md\:g-layout--1fr-1fr {
-    grid-template-columns: 1fr 1fr;
   }
 }
