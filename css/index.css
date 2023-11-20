@@ -2,6 +2,7 @@
 @import url('./modules/components/header.css');
 @import url('./modules/components/nav.css');
 @import url('./modules/components/hero.css');
+@import url('./modules/layouts/grid-layout.css');
 
 :root {
   scroll-behavior: smooth;
@@ -102,15 +103,6 @@
 .flexbox--centered-sides {
   align-items: center;
   justify-content: space-between;
-}
-
-.g-layout {
-  display: grid;
-}
-
-.g-layout--center {
-  place-items: center;
-  place-content: center;
 }
 
 .d-none {
