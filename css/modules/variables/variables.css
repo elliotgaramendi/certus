@@ -13,9 +13,11 @@
   --primary-font-family: 'Source Code Pro', monospace;
   --element-size: 0.875rem;
   --element-spacing: 1.875rem;
+  --max-width: 32rem;
 
   @media (width >=768px) {
     --element-size: 1rem;
     --element-spacing: 2rem;
+    --max-width: 64rem;
   }
 }
