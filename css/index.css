@@ -3,6 +3,7 @@
 @import url('./modules/components/nav.css');
 @import url('./modules/components/hero.css');
 @import url('./modules/components/list.css');
+@import url('./modules/components/card.css');
 @import url('./modules/layouts/grid-layout.css');
 @import url('./modules/layouts/container.css');
 
@@ -24,7 +25,7 @@
   color: inherit;
   text-decoration: initial;
   font-weight: 700;
-  transition: color 0.25s;
+  transition: color var(--transition-duration);
 
   &:hover {
     color: var(--primary-color);
@@ -71,6 +72,7 @@
 
 .img--card {
   width: 100%;
+  height: calc(var(--element-size) * 14);
 }
 
 .button {
@@ -82,7 +84,7 @@
   font-weight: 700;
   display: inline-block;
   cursor: pointer;
-  transition: background-color 0.25s;
+  transition: background-color var(--transition-duration);
 
   &:hover {
     background-color: var(--secondary-color);
@@ -107,7 +109,11 @@
 }
 
 .gap-5xs {
-  gap: 8px;
+  gap: calc(var(--element-spacing) * 0.25);
+}
+
+.gap-md {
+  gap: var(--element-spacing);
 }
 
 @media (width >=768px) {

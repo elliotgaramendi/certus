@@ -11,13 +11,15 @@
   --secondary-text-color: #b1b5b8;
   /* --secondary-text-color: #818588; */
   --primary-font-family: 'Source Code Pro', monospace;
+  --max-width: 32rem;
   --element-size: 0.875rem;
   --element-spacing: 1.875rem;
-  --max-width: 32rem;
+  --border-radius: 1rem;
+  --transition-duration: 0.25s;
 
   @media (width >=768px) {
+    --max-width: 64rem;
     --element-size: 1rem;
     --element-spacing: 2rem;
-    --max-width: 64rem;
   }
 }
