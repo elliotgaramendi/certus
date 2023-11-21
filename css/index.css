@@ -3,6 +3,7 @@
 @import url('./modules/components/nav.css');
 @import url('./modules/components/hero.css');
 @import url('./modules/layouts/grid-layout.css');
+@import url('./modules/layouts/container.css');
 
 :root {
   scroll-behavior: smooth;
@@ -16,13 +17,6 @@
   font-size: var(--element-size);
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-}
-
-.container {
-  max-width: 1024px;
-  padding-right: 16px;
-  padding-left: 16px;
-  margin: 0 auto;
 }
 
 .list {
