@@ -6,6 +6,7 @@
 @import url('./modules/components/card.css');
 @import url('./modules/elements/link.css');
 @import url('./modules/elements/image.css');
+@import url('./modules/elements/button.css');
 @import url('./modules/layouts/grid-layout.css');
 @import url('./modules/layouts/container.css');
 
@@ -21,22 +22,6 @@
   font-size: var(--element-size);
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-}
-
-.button {
-  all: unset;
-  padding: 0.25em 1em;
-  border-radius: 16px;
-  background-color: var(--primary-color);
-  font-size: 16px;
-  font-weight: 700;
-  display: inline-block;
-  cursor: pointer;
-  transition: background-color var(--transition-duration);
-
-  &:hover {
-    background-color: var(--secondary-color);
-  }
 }
 
 .flexbox {
