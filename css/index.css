@@ -5,6 +5,7 @@
 @import url('./modules/components/list.css');
 @import url('./modules/components/card.css');
 @import url('./modules/elements/link.css');
+@import url('./modules/elements/image.css');
 @import url('./modules/layouts/grid-layout.css');
 @import url('./modules/layouts/container.css');
 
@@ -20,49 +21,6 @@
   font-size: var(--element-size);
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-}
-
-.img {
-  display: block;
-  object-fit: cover;
-}
-
-.img--background {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
-}
-
-.img--technology {
-  position: absolute;
-  transform: translate(-50%, -50%);
-
-  &:nth-child(2) {
-    top: 100%;
-    left: 50%;
-  }
-
-  &:nth-child(3) {
-    top: 50%;
-    left: 0;
-  }
-
-  &:nth-child(4) {
-    top: 50%;
-    left: 100%;
-  }
-
-  &:nth-child(5) {
-    top: 0;
-    left: 50%;
-  }
-}
-
-.img--card {
-  width: 100%;
-  height: calc(var(--element-size) * 14);
 }
 
 .button {
