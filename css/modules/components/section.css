@@ -1,0 +1,4 @@
+.section {
+  padding-top: var(--element-spacing);
+  padding-bottom: var(--element-spacing);
+}
