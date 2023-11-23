@@ -1,0 +1,14 @@
+.title {
+  position: relative;
+  margin: 0;
+  font-size: calc(var(--element-size) * 2);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 2em;
+    height: 0.125em;
+    background-color: var(--primary-color);
+  }
+}
