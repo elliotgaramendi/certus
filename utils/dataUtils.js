@@ -1,4 +1,4 @@
-export const socialMedia = [
+export const socialMediaData = [
   {
     id: 1,
     href: 'https://www.youtube.com/@elliotgaramendi',

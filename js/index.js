@@ -1,24 +1,7 @@
-import { socialMedia, teams } from '../utils/dataUtils.js';
+import { teams } from '../utils/dataUtils.js';
+import socialMedia from './modules/elements/socialMedia.js';
 
-const socialMediaList = document.getElementById('socialMediaList');
 const teamList = document.getElementById('teamList');
-
-socialMedia.forEach(element => {
-  const { id, href, title, content } = element;
-  socialMediaList.innerHTML += `
-    <li key="${id}">
-      <a
-        href="=${href}"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="${title}"
-        class="link"
-      >
-        ${content}
-      </a>
-    </li>
-  `;
-});
 
 teams.forEach(element => {
   const { id, title, slug, subtitle, description, image } = element;
@@ -36,8 +19,12 @@ teams.forEach(element => {
         <h3 class="card__title">${title}</h3>
         <h4 class="card__subtitle">${subtitle}</h4>
         <p class="card__text">${description}</p>
-        <a href="./teams/${slug}" class="button">Clases</a>
+        <a href="./teams/${slug}" class="button"></a>
       </div>
     </li>
   `;
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  socialMedia();
 });
