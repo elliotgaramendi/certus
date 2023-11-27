@@ -36,7 +36,7 @@ teams.forEach(element => {
         <h3 class="card__title">${title}</h3>
         <h4 class="card__subtitle">${subtitle}</h4>
         <p class="card__text">${description}</p>
-        <a href="./teams/${slug}" class="button">Proyectos</a>
+        <a href="./teams/${slug}" class="button">Clases</a>
       </div>
     </li>
   `;
