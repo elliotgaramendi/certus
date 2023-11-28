@@ -3,6 +3,10 @@
   min-height: 100vh;
 }
 
+.hero--banner {
+  min-height: 37.5vh;
+}
+
 .hero__images {
   position: relative;
 }
