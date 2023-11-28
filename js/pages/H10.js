@@ -1,3 +1,5 @@
+import Header from '../modules/components/Header.js';
+
 document.addEventListener('DOMContentLoaded', () => {
-  alert('H10')
+  Header();
 });
