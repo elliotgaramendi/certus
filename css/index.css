@@ -12,6 +12,7 @@
 @import url('./modules/layouts/container.css');
 @import url('./modules/layouts/flexbox.css');
 @import url('./modules/layouts/grid-layout.css');
+@import url('./modules/utils/utils.css');
 
 :root {
   scroll-behavior: smooth;
@@ -27,30 +28,4 @@
   color: var(--primary-text-color);
 
   min-height: 125vh;
-}
-
-.d-none {
-  display: none;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.f-direction-column {
-  flex-direction: column;
-}
-
-.gap-5xs {
-  gap: calc(var(--element-spacing) * 0.25);
-}
-
-.gap-md {
-  gap: var(--element-spacing);
-}
-
-@media (width >=768px) {
-  .md\:d-flex {
-    display: flex;
-  }
 }

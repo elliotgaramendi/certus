@@ -1,0 +1,25 @@
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-direction-column {
+  flex-direction: column;
+}
+
+.gap-5xs {
+  gap: calc(var(--element-spacing) * 0.25);
+}
+
+.gap-md {
+  gap: var(--element-spacing);
+}
+
+@media (width >=768px) {
+  .md\:d-flex {
+    display: flex;
+  }
+}
