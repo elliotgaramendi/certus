@@ -1,6 +1,6 @@
-import { socialMediaData } from "../../../utils/dataUtils.js";
+import { socialMediaData } from '../../../utils/dataUtils.js';
 
-const socialMedia = () => {
+const SocialMedia = () => {
   const socialMediaList = document.getElementById('socialMediaList');
 
   socialMediaData.forEach(element => {
@@ -21,4 +21,4 @@ const socialMedia = () => {
   });
 };
 
-export default socialMedia;
+export default SocialMedia;

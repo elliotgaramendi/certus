@@ -25,7 +25,7 @@ export const socialMediaData = [
   }
 ];
 
-export const teams = [
+export const teamsData = [
   {
     id: 1,
     title: 'H07',
@@ -39,7 +39,7 @@ export const teams = [
     title: 'H10',
     slug: 'h10',
     subtitle: 'Sede Norte',
-    description: 'LENGUAJES PARA DES Y SOP SIST (202320-10184-H10-TE)',
+    description: 'Lenguajes para el desarrollo y soporte de sistemas (202320-10184-H10-TE)',
     image: 'https://www.certus.edu.pe/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/01/sede-norte-min.jpg.webp'
   },
   {
@@ -47,7 +47,7 @@ export const teams = [
     title: 'P28',
     slug: 'p28',
     subtitle: 'Sede Villa el Slavador',
-    description: 'LENGUAJES PARA DES Y SOP SIST (202320-10184-P28-TE)',
+    description: 'Lenguajes para el desarrollo y soporte de sistemas (202320-10184-P28-TE)',
     image: 'https://www.certus.edu.pe/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/01/sede-villaelsalvador-min.jpg.webp'
   }
 ];
