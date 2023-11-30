@@ -1,7 +1,5 @@
-import Teams from './modules/components/teams.js';
-import SocialMedia from './modules/elements/SocialMedia.js';
+import PrimaryLayout from './modules/layouts/PrimaryLayout.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-  SocialMedia();
-  Teams();
+  PrimaryLayout();
 });
