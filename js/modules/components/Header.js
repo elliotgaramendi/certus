@@ -1,3 +1,5 @@
+import SocialMedia from '../elements/SocialMedia.js';
+
 const Header = () => {
   const header = document.querySelector('.header');
   const nav = document.querySelector('.nav');
@@ -7,6 +9,7 @@ const Header = () => {
     nav.classList.toggle('nav--scroll', window.scrollY > 0);
   });
 
+  SocialMedia();
 };
 
 export default Header;
