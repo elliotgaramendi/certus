@@ -8,7 +8,7 @@ const SocialMedia = () => {
     socialMediaList.innerHTML += `
       <li key="${id}">
         <a
-          href="=${href}"
+          href="${href}"
           target="_blank"
           rel="noopener noreferrer"
           title="${title}"
