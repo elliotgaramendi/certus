@@ -14,7 +14,7 @@ const Teams = () => {
         src="${image}"
         alt="${title}"
         class="img img--card"
-      />
+      >
       <div class="card__body d-flex f-direction-column gap-5xs">
         <h3 class="card__title">${title}</h3>
         <h4 class="card__subtitle">${subtitle}</h4>
