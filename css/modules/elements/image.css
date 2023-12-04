@@ -40,3 +40,8 @@
   width: 100%;
   height: calc(var(--element-size) * 14);
 }
+
+.img--slide {
+  width: 100%;
+  height: 100%;
+}
