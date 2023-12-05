@@ -1,5 +1,5 @@
-import Header from '../modules/components/Header.js';
+import Projects from '../components/Projects.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-  Header();
+  Projects();
 });
